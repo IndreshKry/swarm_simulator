@@ -7,49 +7,56 @@
 <group ns="swarmbot0">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot0"/>
-<arg name="init_pose" value="-x -12.0 -y -12.0 -z 0"/>
+<arg name="init_pose" value="-x -10.0 -y -10.0 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot1">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot1"/>
-<arg name="init_pose" value="-x -11.5 -y -11.5 -z 0"/>
+<arg name="init_pose" value="-x -9.5 -y -9.5 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot2">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot2"/>
-<arg name="init_pose" value="-x -11.0 -y -11.0 -z 0"/>
+<arg name="init_pose" value="-x -9.0 -y -9.0 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot3">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot3"/>
-<arg name="init_pose" value="-x -10.5 -y -10.5 -z 0"/>
+<arg name="init_pose" value="-x -8.5 -y -8.5 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot4">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot4"/>
-<arg name="init_pose" value="-x -10.0 -y -10.0 -z 0"/>
+<arg name="init_pose" value="-x -8.0 -y -8.0 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot5">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot5"/>
-<arg name="init_pose" value="-x -9.5 -y -9.5 -z 0"/>
+<arg name="init_pose" value="-x -7.5 -y -7.5 -z 0"/>
 </include>
 </group>
 
 <group ns="swarmbot6">
 <include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
 <arg name="robot_name" value="swarmbot6"/>
-<arg name="init_pose" value="-x -9.0 -y -9.0 -z 0"/>
+<arg name="init_pose" value="-x -7.0 -y -7.0 -z 0"/>
+</include>
+</group>
+
+<group ns="swarmbot7">
+<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
+<arg name="robot_name" value="swarmbot7"/>
+<arg name="init_pose" value="-x -6.5 -y -6.5 -z 0"/>
 </include>
 </group>
 
