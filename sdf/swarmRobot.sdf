@@ -51,10 +51,10 @@
         </geometry>
       </collision>
     <collision name="front_wheel_collision">
-        <pose>0.028000 0 0.006000 0 1.570700 1.570700</pose>
+        <pose>0.048000 0 0.006000 0 1.570700 1.570700</pose>
         <geometry>
           <sphere>
-            <radius>0.012500</radius>
+            <radius>0.013700</radius>
           </sphere>
         </geometry>
         <surface>
@@ -70,19 +70,19 @@
         </surface>
       </collision>
       <visual name="front_wheel_visual">
-        <pose>0.028000 0 0.006000 0 1.570700 1.570700</pose>
+        <pose>0.048000 0 0.006000 0 1.570700 1.570700</pose>
         <geometry>
           <sphere>
-            <radius>0.012500</radius>
+            <radius>0.013700</radius>
           </sphere>
         </geometry>
       </visual>
 
       <collision name="rear_wheel_collision">
-        <pose>-0.028000 0 0.006000 0 1.5707 1.5707</pose>
+        <pose>-0.048000 0 0.006000 0 1.570700 1.570700</pose>
         <geometry>
           <sphere>
-            <radius>0.012500</radius>
+            <radius>0.013700</radius>
           </sphere>
         </geometry>
         <surface>
@@ -98,10 +98,10 @@
         </surface>
       </collision>
       <visual name="rear_wheel_visual">
-        <pose>-0.028000 0 0.006000 0 1.570700 1.570700</pose>
+        <pose>-0.048000 0 0.006000 0 1.570700 1.570700</pose>
         <geometry>
           <sphere>
-            <radius>0.012500</radius>
+            <radius>0.013700</radius>
           </sphere>
         </geometry>
       </visual>
@@ -242,7 +242,7 @@
         <visualize>true</visualize>
       </sensor>
     </link>
- 
+
     <link name="left_wheel">
       <pose>0 0.077000 0.034000 0 0 0</pose>
       <inertial>
@@ -362,6 +362,6 @@
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>base_footprint</robotBaseFrame>
       </plugin>
-      
+
   </model>
 </sdf>
