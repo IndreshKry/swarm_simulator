@@ -11,55 +11,6 @@
 </include>
 </group>
 
-<group ns="swarmbot1">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot1"/>
-<arg name="init_pose" value="-x -9.5 -y -9.5 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot2">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot2"/>
-<arg name="init_pose" value="-x -9.0 -y -9.0 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot3">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot3"/>
-<arg name="init_pose" value="-x -8.5 -y -8.5 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot4">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot4"/>
-<arg name="init_pose" value="-x -8.0 -y -8.0 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot5">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot5"/>
-<arg name="init_pose" value="-x -7.5 -y -7.5 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot6">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot6"/>
-<arg name="init_pose" value="-x -7.0 -y -7.0 -z 0"/>
-</include>
-</group>
-
-<group ns="swarmbot7">
-<include file="$(find swarm_simulator)/launch/include/one_swarmRobot.launch">
-<arg name="robot_name" value="swarmbot7"/>
-<arg name="init_pose" value="-x -6.5 -y -6.5 -z 0"/>
-</include>
-</group>
-
  
     <node pkg="swarm_simulator" type="swarm_simulator_node" name="swarm_simulator_node" respawn="false" /> 
 </launch>

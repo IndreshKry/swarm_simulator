@@ -573,9 +573,9 @@
         </link>
       </model>
       <model name='grey_wall_7'>
-        <pose>10.3574 7.30013 1e-06 -0.001078 -0.039101 1.59118</pose>
+        <pose>10.3574 7.30013 1e-06 -0.001078 -0 1.59118</pose>
         <link name='link'>
-          <pose>10.357 7.24538 1.39893 -0.001078 -0.039101 1.59118</pose>
+          <pose>10.357 7.24538 1.39893 -0.001078 -0 1.59118</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
